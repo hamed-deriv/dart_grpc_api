@@ -7,12 +7,12 @@ final categories = <Map<String, dynamic>>[
 ];
 
 final items = <Map<String, dynamic>>[
-  {'id': 1, 'name': 'orange', 'categoryId': 1},
-  {'id': 2, 'name': 'apple', 'categoryId': 1},
-  {'id': 3, 'name': 'cabbage', 'categoryId': 2},
-  {'id': 4, 'name': 'cucumber', 'categoryId': 2},
-  {'id': 5, 'name': 'rice', 'categoryId': 4},
-  {'id': 6, 'name': 'beans', 'categoryId': 4},
-  {'id': 7, 'name': 'cake', 'categoryId': 3},
-  {'id': 8, 'name': 'milk', 'categoryId': 5},
+  {'id': 1, 'name': 'orange', 'category_id': 1},
+  {'id': 2, 'name': 'apple', 'category_id': 1},
+  {'id': 3, 'name': 'cabbage', 'category_id': 2},
+  {'id': 4, 'name': 'cucumber', 'category_id': 2},
+  {'id': 5, 'name': 'rice', 'category_id': 4},
+  {'id': 6, 'name': 'beans', 'category_id': 4},
+  {'id': 7, 'name': 'cake', 'category_id': 3},
+  {'id': 8, 'name': 'milk', 'category_id': 5},
 ];
