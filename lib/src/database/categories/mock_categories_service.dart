@@ -1,3 +1,4 @@
+import 'package:dart_grpc_api/dart_grpc_api.dart';
 import 'package:dart_grpc_api/src/database/categories/base_categories_service.dart';
 import 'package:dart_grpc_api/src/generated/groceries.pb.dart';
 
@@ -18,8 +19,10 @@ class MockCategoryService extends BaseCategoriesService {
   }
 
   @override
-  Category? createCategory(Category category) {
-    throw UnimplementedError();
+  Category createCategory(Category category) {
+    categories.add({'id': category.id, 'name': category.name});
+
+    return category;
   }
 
   @override

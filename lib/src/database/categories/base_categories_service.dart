@@ -6,7 +6,7 @@ abstract class BaseCategoriesService {
 
   List<Category>? getCategories();
 
-  Category? createCategory(Category category);
+  Category createCategory(Category category);
   Category? updateCategory(Category category);
   Empty? deleteCategory(Category category);
 }
